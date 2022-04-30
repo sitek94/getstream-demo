@@ -2,6 +2,7 @@ module.exports = {
   extends: ['react-app', 'react-app/jest'],
   plugins: ['simple-import-sort'],
   rules: {
+    'import/no-anonymous-default-export': 'off',
     'simple-import-sort/imports': [
       1,
       {
